@@ -1,2 +1,0 @@
-#!/bin/sh
-export R_LIBS_USER=/srv/rlibs
