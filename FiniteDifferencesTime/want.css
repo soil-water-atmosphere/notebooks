@@ -1,0 +1,15 @@
+h1 {
+    font-size: 16pt;
+}
+
+.answer {
+    color: red;
+}
+
+.student_answer {
+    color: green;
+}
+
+.question {
+    color: blue;
+}
