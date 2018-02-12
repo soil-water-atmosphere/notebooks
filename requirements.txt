@@ -2,3 +2,5 @@ numpy
 matplotlib
 netCDF4
 scipy
+cartopy
+
