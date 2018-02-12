@@ -1,1 +1,3 @@
 ffmpeg
+libblas-dev
+liblapack-dev
