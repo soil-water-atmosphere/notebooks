@@ -7,7 +7,7 @@
 rm(list=ls())
 
 # Set working directory (change to your own location)
-setwd("D:/education/R/repository/")
+setwd("D:/education/R/example_scripts/")
 
 # Load packages
 library(zoo)
