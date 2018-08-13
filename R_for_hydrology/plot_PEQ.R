@@ -34,7 +34,7 @@ date = strptime(as.character(d$date), format="%Y%m%d%H", tz="UTC")
 ETpot_movave = rollmean(d$ETpot, k=5*24, fill=NA)
 
 # format x-axis: for 7 date labels on the x-axis, equally distributed
-place_xlabel = c(date[1] +c(0:6) *(date[length(date)] - date[1])/6)
+place_xlabel = date[1] +c(0:6) *(date[length(date)] - date[1])/6
 xlabel       = substr(as.character(place_xlabel),1,10)
 
 
