@@ -40,7 +40,7 @@ cols = c("dodgerblue","forestgreen","orange")
 pdf("figs/time_series_scenarios.pdf", width=6, height=4, family="Times")
 
 # Change margins (mar), distance of axes and labels (mgp) and tick marks (tcl)
-par(mar=c(1.1,2.2,0.6,0.1), mgp=c(1.2,0.2,0), tcl=-0.2) 
+par(mar=c(1.2,2.2,0.6,0.1), mgp=c(1.2,0.2,0), tcl=-0.2) 
 
 # Make an empty plot
 plot(date, d[,1], type="n", col=cols[1], 
