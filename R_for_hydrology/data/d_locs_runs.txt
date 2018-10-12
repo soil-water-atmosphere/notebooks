@@ -1,0 +1,5 @@
+loc run1 run2 run3 run4
+"loc1" 5 3 8 4
+"loc2" 7.5 1 2 7
+"loc3" 5.5 2 3.5 6
+"loc4" 4 3 9 4.5
