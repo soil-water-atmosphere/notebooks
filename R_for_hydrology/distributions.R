@@ -8,7 +8,6 @@ rm(list=ls())
 
 # Set working directory (change to your own location)
 setwd("D:/education/R/example_scripts/")
-setwd("C:/Dropbox/rest/R/")
 
 
 ########
@@ -82,35 +81,6 @@ legend(c("# high", n_high), x="topright", col="transparent", bty="n", lty=1, cex
 
 # Close pdf
 graphics.off()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
