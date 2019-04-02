@@ -8,5 +8,5 @@ The scripts are made for hydrological analyses, but most of them can be applied 
 If you don't know how to build scripts yet, do self study modules 4-8 on the GitHub site of
 [A (very) short introduction to R](https://github.com/ClaudiaBrauer/A-very-short-introduction-to-R/tree/master/Self%20study%20modules).
 
-Note that this repository is dynamic: we just started it, so it's still quite empty, but we will keep adding scripts.
+Note that this repository is dynamic: we will keep adding scripts. Suggestions are welcome!
 
