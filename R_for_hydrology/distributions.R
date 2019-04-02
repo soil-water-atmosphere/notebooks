@@ -21,7 +21,6 @@ d = read.table("data/Q_4TestRivers_day.dat", header=TRUE)
 Q = d[,2:ncol(d)]
 
 
-
 ##############
 ### Processing
 ##############
@@ -81,7 +80,4 @@ legend(c("# high", n_high), x="topright", col="transparent", bty="n", lty=1, cex
 
 # Close pdf
 graphics.off()
-
-
-
 
