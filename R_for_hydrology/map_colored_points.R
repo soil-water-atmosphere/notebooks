@@ -56,7 +56,7 @@ col_max  = 800
 
 # Check if all data are within range
 min(variable, na.rm=TRUE) > col_min
-min(variable, na.rm=TRUE) < col_max
+max(variable, na.rm=TRUE) < col_max
 
 # Look up which color belongs to each value in the variable's vector.
 # (You don't have to change anything here for other plots - just run these lines).
