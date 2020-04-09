@@ -49,7 +49,7 @@ Qdummy = SpatialPointsDataFrame(coords, data=Qdata)
 ncols = 7
 
 # Make color range: change colors to preference (2 or more)
-cols = colorRampPalette(c("lightyellow","blue"))(ncols)
+cols = colorRampPalette(c("lightyellow","blue"))
 
 # See what range of data is
 range(Qdata, na.rm=TRUE)
