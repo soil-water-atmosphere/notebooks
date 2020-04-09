@@ -59,7 +59,7 @@ col_min  = 200
 col_max  = 800
 
 # Make color scale
-breaks=seq(col_min, col_max, length.out=ncols)
+breaks=seq(col_min, col_max, length.out=ncols+1)
 
 ### Plot map
 map = mapView(Qdummy, zcol=c("Qyear1","Qyear2"), color="transparent", col.regions=cols, 
