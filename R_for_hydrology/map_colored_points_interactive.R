@@ -51,16 +51,12 @@ ncols = 7
 # Make color range: change colors to preference (2 or more)
 cols = colorRampPalette(c("lightyellow","blue"))(ncols)
 
-# Say which variable you want to plot
-variable = Qdata
+# See what range of data is
+range(Qdata, na.rm=TRUE)
 
 # Define range 
 col_min  = 200
 col_max  = 800
-
-# Check if all data are within range
-min(variable, na.rm=TRUE) > col_min
-min(variable, na.rm=TRUE) < col_max
 
 # Make color scale
 breaks=seq(col_min, col_max, length.out=ncols)
