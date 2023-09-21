@@ -27,6 +27,7 @@ date_num = as.numeric(paste0(substr(d[,1],1,4),substr(d[,1],6,7),substr(d[,1],9,
 
 # Extract the second column for water depth
 h = d[,2]
+h = as.numeric(gsub("_", ".", h))
 
 
 ##############
@@ -72,7 +73,7 @@ par(mar=c(1.1,2,0.5,0.5), mgp=c(1.2,0.2,0), tcl=-0.2)
 
 # Plot water level.
 plot(date, h, type="l", col="dodgerblue", 
-     ylim=c(0,2), 
+     ylim=c(0,4), 
      ylab="h [m]",
      xaxt="n", xaxs="i", yaxs="i")
 
